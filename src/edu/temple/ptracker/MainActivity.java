@@ -42,14 +42,14 @@ public class MainActivity extends Activity {
 	    });
 	    
 	    
-	  //Settings Button
-	  		final Intent intentSettingsButton = new Intent();
-	  	    intentSettingsButton.setClass(MainActivity.this, SettingsActivity.class);
+	    //Settings Button
+	  	final Intent intentSettingsButton = new Intent();
+	  	intentSettingsButton.setClass(MainActivity.this, SettingsActivity.class);
 	  	      	
-	  	    settingsButton.setOnClickListener(new OnClickListener() 
-	  	    {
-	  	      	public void onClick(View v) { startActivity(intentSettingsButton);}
-	  	    });
+	  	settingsButton.setOnClickListener(new OnClickListener() 
+	  	{
+	  		public void onClick(View v) { startActivity(intentSettingsButton);}
+	  	});
 		
 		
 		
